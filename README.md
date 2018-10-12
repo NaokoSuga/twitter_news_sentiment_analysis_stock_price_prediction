@@ -82,8 +82,8 @@ We also fit an AdaBoost model only including the news features. Overall the metr
 
 ![alt text](https://github.com/NaokoSuga/twitter_news_sentiment_analysis_stock_price_prediction/blob/master/Screenshots/news.png?raw=True)
 
-### ARIMA Models
+### Next Steps
 
-Finally, we fit 4 different SARIMAX models using different combinations of P (number of auto regressive terms), D (number of differences) and Q (number of moving average) by using a grid search. TO BE CONTINUED
-
-![alt text](https://github.com/NaokoSuga/twitter_news_sentiment_analysis_stock_price_prediction/blob/master/Screenshots/ARIMA.png?raw=True)
+1. Set up SQL Database to save tweets, articles and stock prices every week. Once enough data is gathered we can refit the models.
+2. Try dimensionality reduction methods such as PCA
+3. Potentially create own polarity scale as opposed to using vader sentiment as the final say. We can also add industry specific vocabulary to vader sentiment to add customization
